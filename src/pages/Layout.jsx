@@ -5,13 +5,10 @@ export default function RootLayout() {
     <>
       <Header />
       <main>
-        <p>
-          Esse é o layout principal. Abaixo está o conteúdo dinâmico de cada
-          rota filha.
-        </p>
         <hr />
         <Outlet />
       </main>
+      <hr />
       <footer>
         <p>Feito com React Router DOM ^_^</p>
       </footer>

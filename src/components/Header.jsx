@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
+import "./index.css";
 
 export default function Header() {
   return (
     <header>
-      <nav style={{ display: "flex", gap: "2rem" }}>
+      <nav className="divNav">
         <Link to="/">Início</Link>
         <Link to="/products">Produtos</Link>
         <Link to="/cart">Carrinho</Link>
