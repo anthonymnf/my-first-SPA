@@ -5,7 +5,7 @@ export default function Products() {
   return (
     <section>
       <h2>Todos os produtos</h2>
-      <p>Confira todas as nossas ofertas.</p>
+      <h3>Confira todas as nossas ofertas!</h3>
       <section className="products">
         {products.map((product) => (
           <div className="container" key={product.id}>
