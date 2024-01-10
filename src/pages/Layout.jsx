@@ -11,7 +11,7 @@ export default function RootLayout() {
       </main>
       <hr />
       <footer>
-        <p>Feito com React Router DOM ^_^</p>
+        <p>Feito com React Router DOM fazendo atualização ^_^</p>
       </footer>
     </>
   );
